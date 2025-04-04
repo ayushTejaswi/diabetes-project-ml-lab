@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('diapic.jpg'); /* Specify your background image path */
+  background-size: cover;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  color: #001f3f; /* Dark blue color for title */
+}
+
+.subheading {
+  color: orange; /* Orange color for subheading */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  color: #0074D9; /* Light blue color for form titles */
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #7FDBFF; /* Light blue color for predict button */
+  border-color: #7FDBFF;
+}
+.diagnosis {
+  color: red; /* Default red color for diagnosis */
+}
+
+.diagnosis.red {
+  color: green; /* Change color to green if diagnosis is negative */
+}
